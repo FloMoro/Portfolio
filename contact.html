@@ -34,24 +34,25 @@
 			</ul>
 		</nav>
 
-<div class="contacts">
+        <div class="contacts container">
 
-<form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/mzbrgjjz" method="POST">
-    <fieldset id="fs-frm-inputs">
-      <label for="full-name">Nom</label>
-      <input type="text" name="Nom" id="full-name" placeholder="First and Last" required="">
-      <label for="email-address">Mail</label>
-      <input type="email" name="Adresse" id="email-address" placeholder="exemple@mail.com" required="">
-      <label for="telephone">Telephone Number (Optional)</label>
-      <input type="telephone" name="Telephone" id="telephone" placeholder="00 00 00 00 00">
-      <label for="complaint">Message</label>
-      <textarea rows="6" name="Message" id="complaint" placeholder="Message..." required=""></textarea>
-      <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
-    </fieldset>
-    <input type="submit" value="File Complaint">
-  </form>
+            <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/mzbrgjjz" method="POST">
+                <fieldset id="fs-frm-inputs">
+                <label for="full-name" class="space">Nom</label>
+                <input type="text" name="Nom" id="full-name" placeholder="First and Last" required="">
+                <label class="space" for="email-address">Mail</label>
+                <input type="email" name="Adresse" id="email-address" placeholder="exemple@mail.com" required="">
+                <label for="telephone" class="space">Telephone</label>
+                <input type="telephone" name="Telephone" id="telephone" placeholder="00 00 00 00 00">
+                <label for="complaint" class="space">Message</label>
+                <textarea rows="6" name="Message" id="complaint" placeholder="Message..." required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+                </fieldset>
+                <br>
+                <input type="submit" value="File Complaint">
+            </form>
 
-</div>
+        </div>
 
 
 
