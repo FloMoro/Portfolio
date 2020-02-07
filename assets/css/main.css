@@ -4902,3 +4902,14 @@
 	.button.alt {
 		margin: 10px;
 	}
+
+
+
+	.links2{
+		border: 0;
+		border-top: solid 1px rgba(255, 255, 255, 0.125);
+		color: rgba(255, 255, 255, 0.5);
+		display: block;
+		line-height: 3.5rem;
+		text-decoration: none;
+	}
