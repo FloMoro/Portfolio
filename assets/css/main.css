@@ -4913,3 +4913,8 @@
 		line-height: 3.5rem;
 		text-decoration: none;
 	}
+
+	.icon{
+		height: 30px;
+		width: auto;
+	}
